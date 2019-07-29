@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:background="@color/colorBackground"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="UpQuiz"
+        android:textColor="@android:color/background_dark"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_centerInParent="true"
+
+        android:textSize="30dp"
+        android:id="@+id/start_button"
+        />
+
+    <TextView
+        android:id="@+id/text_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginBottom="75dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+
+
+        android:text="HighScore: 0"
+        android:textSize="40dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/start_button"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
